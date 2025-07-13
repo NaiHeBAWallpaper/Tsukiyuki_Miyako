@@ -69,6 +69,15 @@
 				"type" : "slider",
 				"value" : 47
 			},
+			"drawHitboxes" : 
+			{
+				"condition" : "mouseactions.value == true",
+				"index" : 15,
+				"order" : 115,
+				"text" : "Interactive Area",
+				"type" : "bool",
+				"value" : false
+			},
 			"fireworks" : 
 			{
 				"index" : 13,
@@ -208,7 +217,7 @@
 	"tags" : [ "Anime" ],
 	"title" : "Blue Archive | Tsukiyuki Miyako",
 	"type" : "Web",
-	"version" : 9,
+	"version" : 10,
 	"visibility" : "public",
 	"workshopid" : "3495160763",
 	"workshopurl" : "steam://url/CommunityFilePage/3495160763"
